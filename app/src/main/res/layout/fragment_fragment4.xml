@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4682B4"
+    android:orientation="vertical"
+    android:layout_marginRight="40dp"
+    tools:context="com.example.nscpl_aqib.tablayoutex1.Fragment4">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_mood_black_24dp"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter your Name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="28dp"
+
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Your Course Name"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Your College Name"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Your Depart Name"
+        android:textSize="28dp"
+
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="Click Me"
+        android:background="@drawable/shape"
+        android:textColor="#fff"
+        android:id="@+id/bt1"/>
+
+
+
+</LinearLayout>

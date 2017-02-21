@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TabLayoutEx1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="two">MCA</string>
+    <string name="three">AIIT</string>
+    <string name="fourth">JAMIA</string>
+</resources>
